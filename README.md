@@ -1,38 +1,13 @@
-# Welcome to Remix!
+# WiseNote: A Note-taking App
 
-- [Remix Docs](https://remix.run/docs)
+## About
 
-## Development
+WiseNote is a Web Application made using Remix that uses AuthKit from WorkOS and OpenAI API to fixes any grammatical error and better represent any stored note on command
 
-From your terminal:
-
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
 
 ## Deployment
 
-First, build your app for production:
+Edit the .env file to insert your environment variables,
+OpenAI, WorkOS authkid and SupaBase API keys.
 
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+npm run dev
